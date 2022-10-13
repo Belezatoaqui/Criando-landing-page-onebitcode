@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.589);
+  color:white;
+}
+
+
+.container1{
+background-color: $background-color;
+width: 450px;
+height: 100%;
+}
+
+
+.topLogo{
+  width: 200px;
+}
+
+.paragraph{
+  margin: 6px 0px;
+}
+
+.btnSucess{
+  color:$button-color;
+  border: 1ps solid $button-color;
+  &:hover{
+    background-color: $button-color;
+    color:white;
+  }
+}
+
+.fotter{
+  margin-top: 30px;
+  
+}
